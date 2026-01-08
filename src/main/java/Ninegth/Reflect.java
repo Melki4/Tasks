@@ -8,7 +8,7 @@ public class Reflect {
 
         Class<?> clazz = o.getClass();
 
-        Method[] str = clazz.getDeclaredMethods();
+        Method[] str = clazz.getMethods();
 
         String[] s = new String[str.length];
 
