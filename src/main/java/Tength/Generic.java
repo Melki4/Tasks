@@ -28,7 +28,5 @@ public class Generic<T extends Number> {
         Generic<Byte> arat = new Generic<>(array);
         System.out.println(arat.max());
         System.out.println(arat.min());
-
-
     }
 }
